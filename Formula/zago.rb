@@ -1,8 +1,8 @@
 class Zago < Formula
   desc "Terminal text editor and plain-text diagramming tool"
   homepage "https://github.com/zonble/zago"
-  url "https://github.com/zonble/zago/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "e529fcd6582f987f2719fdc2a9fe13acd36a06149855cb74cab2d69c267f90cb"
+  url "https://github.com/zonble/zago/archive/refs/tags/v1.0.2.tar.gz"
+  sha256 "42a1275bf71a1f2827b21aaf442b2dbd4279487500e9d12a81702cc29ad522fe"
   license "MIT"
   head "https://github.com/zonble/zago.git", branch: "main"
 
