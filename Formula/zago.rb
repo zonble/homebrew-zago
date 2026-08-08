@@ -17,6 +17,7 @@ class Zago < Formula
   def install
     system "swift", "build",
       "--configuration", "release",
+      "-Xswiftc", "-Osize",
       "--disable-sandbox",
       "--product", "zago"
 
